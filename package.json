@@ -1,0 +1,15 @@
+{
+  "name": "base-vault-project",
+  "version": "1.0.0",
+  "description": "MultiSig Wallet Project on Base Network",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network base"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.5"
+  }
+}
